@@ -5,7 +5,6 @@ import {
   UserGroupIcon,
   CalendarIcon,
   AcademicCapIcon,
-  UserCheckIcon,
   ChartBarIcon,
   CogIcon,
   ArrowRightOnRectangleIcon,
@@ -42,7 +41,7 @@ const ModernSidebar: React.FC<ModernSidebarProps> = ({
 
   const navigationItems = [
     { id: "dashboard", label: "Dashboard", icon: HomeIcon, roles: ["student", "faculty", "admin"] },
-    { id: "attendance", label: "Attendance", icon: UserCheckIcon, roles: ["student", "faculty", "admin"] },
+    { id: "attendance", label: "Attendance", icon: UserGroupIcon, roles: ["student", "faculty", "admin"] },
     { id: "dual-attendance", label: "Smart Attendance", icon: CameraIcon, roles: ["student"] },
     { id: "face-enrollment", label: "Face Enrollment", icon: CameraIcon, roles: ["student"] },
     { id: "teacher-dashboard", label: "Teacher Dashboard", icon: AcademicCapIcon, roles: ["faculty"] },
@@ -90,7 +89,7 @@ const ModernSidebar: React.FC<ModernSidebarProps> = ({
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className={`p-2 bg-gradient-to-r ${currentGradient} rounded-xl shadow-lg`}>
-                <UserCheckIcon className="h-8 w-8 text-white" />
+                <AcademicCapIcon className="h-8 w-8 text-white" />
               </div>
               <div>
                 <span className="font-bold text-xl text-gray-900 dark:text-white">Attendify</span>

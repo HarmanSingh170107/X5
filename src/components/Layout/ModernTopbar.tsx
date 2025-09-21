@@ -7,7 +7,7 @@ import {
   MoonIcon,
   SunIcon,
   ChartBarIcon,
-  UserCheckIcon,
+  AcademicCapIcon,
 } from "@heroicons/react/24/outline";
 
 interface ModernTopbarProps {
@@ -57,7 +57,7 @@ const ModernTopbar: React.FC<ModernTopbarProps> = ({ setSidebarOpen, setActiveSe
           {/* Logo + Brand - Hidden on mobile when sidebar exists */}
           <div className="hidden lg:flex items-center space-x-3">
             <div className={`p-2 bg-gradient-to-r ${currentGradient} rounded-xl shadow-lg`}>
-              <UserCheckIcon className="h-8 w-8 text-white" />
+              <AcademicCapIcon className="h-8 w-8 text-white" />
             </div>
             <div>
               <span className={`text-xl font-bold bg-gradient-to-r ${currentGradient} bg-clip-text text-transparent`}>
