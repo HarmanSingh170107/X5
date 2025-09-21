@@ -9,7 +9,7 @@ import {
   CalendarIcon,
   TrendingUpIcon,
   TrendingDownIcon,
-  AlertTriangleIcon,
+  ExclamationTriangleIcon,
   ChartBarIcon,
   RefreshCcwIcon,
   AcademicCapIcon
@@ -221,7 +221,7 @@ const AdminAnalytics: React.FC = () => {
         <div className="space-y-6">
           <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6">
             <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white flex items-center">
-              <AlertTriangleIcon className="h-5 w-5 text-orange-500 mr-2" />
+              <ExclamationTriangleIcon className="h-5 w-5 text-orange-500 mr-2" />
               Risk Level Distribution
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
