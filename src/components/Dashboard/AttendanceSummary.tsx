@@ -11,7 +11,8 @@ import {
   RefreshCcwIcon,
   AlertTriangleIcon,
   CheckCircleIcon,
-  XCircleIcon
+  XCircleIcon,
+  AcademicCapIcon
 } from '@heroicons/react/24/outline';
 
 interface AttendanceSummaryProps {
@@ -222,7 +223,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
                 {summaryData?.today_stats?.total_attendance || 0}
               </p>
             </div>
-            <UserCheckIcon className="h-8 w-8 text-blue-500" />
+            <UserGroupIcon className="h-8 w-8 text-blue-500" />
           </div>
         </div>
 
@@ -296,7 +297,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
                 {summaryData?.overview?.total_students || students.length}
               </p>
             </div>
-            <UserCheckIcon className="h-8 w-8 text-blue-500" />
+            <UserGroupIcon className="h-8 w-8 text-blue-500" />
           </div>
         </div>
 
@@ -308,7 +309,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
                 {summaryData?.overview?.total_faculty || 25}
               </p>
             </div>
-            <UserCheckIcon className="h-8 w-8 text-green-500" />
+            <AcademicCapIcon className="h-8 w-8 text-green-500" />
           </div>
         </div>
 
