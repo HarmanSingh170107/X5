@@ -3,7 +3,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useApp } from '../../context/AppContext';
 import { apiService } from '../../services/api';
 import { 
-  UserCheckIcon, 
+  UserGroupIcon, 
   CalendarIcon, 
   ClockIcon, 
   TrendingUpIcon, 
