@@ -9,7 +9,7 @@ import {
   TrendingUpIcon, 
   TrendingDownIcon,
   RefreshCcwIcon,
-  AlertTriangleIcon,
+  ExclamationTriangleIcon,
   CheckCircleIcon,
   XCircleIcon,
   AcademicCapIcon
@@ -348,7 +348,7 @@ const AttendanceSummary: React.FC<AttendanceSummaryProps> = ({ setActiveSection 
             }`}>
               <div className="flex items-center space-x-3">
                 {alert.type === 'warning' ? (
-                  <AlertTriangleIcon className="h-6 w-6 text-yellow-600" />
+                  <ExclamationTriangleIcon className="h-6 w-6 text-yellow-600" />
                 ) : (
                   <CheckCircleIcon className="h-6 w-6 text-blue-600" />
                 )}
